@@ -1,8 +1,44 @@
 import React from "react";
-import HeaderStyles from "./styles";
+import HeaderStyles, {
+  Logo,
+  NavButtonsContainer,
+  ContactUsButton,
+  NavButton,
+} from "./styles";
+import Link from "../Link";
+import useResponsive from "../../helpers/useMediaQuery";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Header: React.FC = () => {
-  return <HeaderStyles>Header</HeaderStyles>;
+  const { sm } = useResponsive();
+  const data = [
+    { text: "Organizations", path: "/team" },
+    { text: "Volunteers", path: "/volunteers" },
+    { text: "Team", path: "/team" },
+    { text: "Blog", path: "/volunteers" },
+  ];
+
+  return (
+    <HeaderStyles>
+      <Link to="/">
+        <Logo />
+      </Link>
+      {sm ? (
+        <HamburgerMenu data={data} />
+      ) : (
+        <NavButtonsContainer>
+          {data.map(({ path, text }, index) => (
+            <NavButton href={path} key={`nav-button-${index}`}>
+              {text}
+            </NavButton>
+          ))}
+          <Link to="/contact">
+            <ContactUsButton>Contact Us</ContactUsButton>
+          </Link>
+        </NavButtonsContainer>
+      )}
+    </HeaderStyles>
+  );
 };
 
 export default Header;

@@ -1,1 +1,27 @@
-{"polyfill":["/polyfill.js","/polyfill.63f05af2eb05f1fa420c.hot-update.js"],"commons":["/commons.css","/commons.js","/commons.63f05af2eb05f1fa420c.hot-update.js"],"component---cache-dev-404-page-js":["/component---cache-dev-404-page-js.js"],"component---src-pages-404-js":["/component---src-pages-404-js.js","/component---src-pages-404-js.63f05af2eb05f1fa420c.hot-update.js"],"component---src-pages-index-js":["/component---src-pages-index-js.js","/component---src-pages-index-js.63f05af2eb05f1fa420c.hot-update.js"],"component---src-pages-page-2-js":["/component---src-pages-page-2-js.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx.js","/component---src-pages-using-typescript-tsx.63f05af2eb05f1fa420c.hot-update.js"]}
+{
+  "polyfill": ["/polyfill.js", "/polyfill.63f05af2eb05f1fa420c.hot-update.js"],
+  "commons": [
+    "/commons.css",
+    "/commons.js",
+    "/commons.63f05af2eb05f1fa420c.hot-update.js"
+  ],
+  "component---cache-dev-404-page-js": [
+    "/component---cache-dev-404-page-js.js"
+  ],
+  "component---src-pages-404-js": [
+    "/component---src-pages-404-js.js",
+    "/component---src-pages-404-js.63f05af2eb05f1fa420c.hot-update.js"
+  ],
+  "component---src-pages-contact-js": [
+    "/component---src-pages-contact-js.js",
+    "/component---src-pages-contact-js.63f05af2eb05f1fa420c.hot-update.js"
+  ],
+  "component---src-pages-index-js": [
+    "/component---src-pages-index-js.js",
+    "/component---src-pages-index-js.63f05af2eb05f1fa420c.hot-update.js"
+  ],
+  "component---src-pages-using-typescript-tsx": [
+    "/component---src-pages-using-typescript-tsx.js",
+    "/component---src-pages-using-typescript-tsx.63f05af2eb05f1fa420c.hot-update.js"
+  ]
+}
