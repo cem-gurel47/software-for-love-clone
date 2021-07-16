@@ -6,7 +6,6 @@
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/404.js")),
-  "component---src-pages-index-js": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/index.js")),
-  "component---src-pages-using-typescript-tsx": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/using-typescript.tsx"))
+  "component---src-pages-index-js": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/index.js"))
   }
 
