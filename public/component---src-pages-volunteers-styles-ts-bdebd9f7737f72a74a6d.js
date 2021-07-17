@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[23],{5532:function(t,e,u){"use strict";u.d(e,{Z:function(){return a}});var r=u(8481),n=u(7294);function a(){var t=n.useReducer((function(t){return t+1}),0);return(0,r.Z)(t,2)[1]}}}]);
+//# sourceMappingURL=component---src-pages-volunteers-styles-ts-bdebd9f7737f72a74a6d.js.map

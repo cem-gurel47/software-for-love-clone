@@ -1,0 +1,9 @@
+{
+  "main.js": "render-page.js",
+  "render-page.js.map": "render-page.js.map",
+  "static/homepage-2.png": "static/homepage-2-beb222c21dfec4454818612b2825e0f0.png",
+  "static/homepage-3.png": "static/homepage-3-a1700a65390bc33f78d0c56c6dd38720.png",
+  "static/homepage.gif": "static/homepage-c7140942a0de9039dada83fa8c99ed3b.gif",
+  "static/humans3.png": "static/humans3-dddbed89492e2766809d003040b3e9a8.png",
+  "static/volunteer.svg": "static/volunteer-77c2333e6f4914d446dd64f8d267fe80.svg"
+}

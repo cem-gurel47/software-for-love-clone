@@ -53,7 +53,7 @@ const IndexPage = () => (
       }
     />
     <Banner
-      img={HomePageSecondaryImage}
+      img={HomePageTertiaryImage}
       title="Join The Team"
       titleColor="#282f36"
       direction="right"

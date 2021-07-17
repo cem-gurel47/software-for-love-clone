@@ -4,7 +4,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/404.js")),
   "component---src-pages-contact-styles-ts": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/contact.styles.ts")),
   "component---src-pages-contact-tsx": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/contact.tsx")),
