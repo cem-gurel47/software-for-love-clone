@@ -8,9 +8,10 @@ export default styled(Row)`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px 25%;
+  padding: 14px 25%;
   padding-left: 150px;
   padding-right: 150px;
+  border-bottom: 1px solid #e1e4e9;
 
   @media only screen and (max-width: 1200px) {
     padding-left: 60px;
@@ -28,7 +29,7 @@ export const Logo = styled(Image).attrs(() => ({
   alt: "Logo",
 }))`
   cursor: pointer;
-  margin-bottom: -15px;
+  margin-bottom: -10px;
 `;
 
 export const NavButtonsContainer = styled(Row)`

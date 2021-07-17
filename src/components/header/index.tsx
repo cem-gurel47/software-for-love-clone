@@ -12,9 +12,9 @@ import HamburgerMenu from "./HamburgerMenu";
 const Header: React.FC = () => {
   const { sm } = useResponsive();
   const data = [
-    { text: "Organizations", path: "/team" },
+    { text: "Organizations", path: "/volunteers" },
     { text: "Volunteers", path: "/volunteers" },
-    { text: "Team", path: "/team" },
+    { text: "Team", path: "/volunteers" },
     { text: "Blog", path: "/volunteers" },
   ];
 

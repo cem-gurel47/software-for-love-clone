@@ -3,7 +3,7 @@ import ButtonStyles from "./styles";
 import { ButtonProps } from "antd/lib/button";
 
 interface IButtonProps extends ButtonProps {
-  buttonType?: "primary";
+  buttonType?: "primary" | "secondary";
   buttonSize?: "large" | "small" | "cover";
   weight?: "bold";
   children: React.ReactNode;

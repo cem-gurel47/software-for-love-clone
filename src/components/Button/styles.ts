@@ -15,11 +15,17 @@ const typePicker = (type: string): Type => {
         backgroundColor: "#394a74",
         color: "#fff",
       };
+    case "secondary":
+      return {
+        borderColor: "#394a74",
+        backgroundColor: "#fff",
+        color: "#394a74",
+      };
 
     default:
       return {
-        borderColor: "#394a74",
-        backgroundColor: "transparent",
+        borderColor: "transparent",
+        backgroundColor: "#fff",
         color: "#394a74",
       };
   }
@@ -56,7 +62,7 @@ const sizePicker = (type: string | undefined): SizeType => {
 };
 
 export default styled(Button)<{
-  buttonType: "primary";
+  buttonType?: "primary" | "secondary";
   buttonSize: "large" | "small" | "cover" | undefined;
   weight: "bold" | undefined;
 }>`

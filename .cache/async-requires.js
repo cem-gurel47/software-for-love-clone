@@ -4,8 +4,12 @@ const preferDefault = m => (m && m.default) || m
 exports.components = {
   "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
-  "component---src-pages-contact-js": () => import("./../../../src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
+  "component---src-pages-contact-styles-ts": () => import("./../../../src/pages/contact.styles.ts" /* webpackChunkName: "component---src-pages-contact-styles-ts" */),
+  "component---src-pages-contact-tsx": () => import("./../../../src/pages/contact.tsx" /* webpackChunkName: "component---src-pages-contact-tsx" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-using-typescript-tsx": () => import("./../../../src/pages/using-typescript.tsx" /* webpackChunkName: "component---src-pages-using-typescript-tsx" */)
+  "component---src-pages-index-styles-ts": () => import("./../../../src/pages/index.styles.ts" /* webpackChunkName: "component---src-pages-index-styles-ts" */),
+  "component---src-pages-using-typescript-tsx": () => import("./../../../src/pages/using-typescript.tsx" /* webpackChunkName: "component---src-pages-using-typescript-tsx" */),
+  "component---src-pages-volunteers-styles-ts": () => import("./../../../src/pages/volunteers.styles.ts" /* webpackChunkName: "component---src-pages-volunteers-styles-ts" */),
+  "component---src-pages-volunteers-tsx": () => import("./../../../src/pages/volunteers.tsx" /* webpackChunkName: "component---src-pages-volunteers-tsx" */)
 }
 
