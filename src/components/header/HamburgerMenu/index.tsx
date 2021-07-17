@@ -29,12 +29,10 @@ const index: React.FC<Props> = ({ data }) => {
       >
         <Divider />
         {data.map(({ text, path }, index) => (
-          <>
-            <NavButton href={path} key={`drawer-button-${index}`}>
-              {text}
-            </NavButton>
+          <div key={`drawer-button-${index}`}>
+            <NavButton href={path}>{text}</NavButton>
             <Divider />
-          </>
+          </div>
         ))}
         <ContactUsButton>Contact Us</ContactUsButton>
       </Drawer>

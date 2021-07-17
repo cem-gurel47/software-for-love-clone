@@ -9,7 +9,6 @@ exports.components = {
   "component---src-pages-contact-tsx": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/contact.tsx")),
   "component---src-pages-index-js": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/index.js")),
   "component---src-pages-index-styles-ts": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/index.styles.ts")),
-  "component---src-pages-using-typescript-tsx": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/using-typescript.tsx")),
   "component---src-pages-volunteers-styles-ts": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/volunteers.styles.ts")),
   "component---src-pages-volunteers-tsx": preferDefault(require("/Users/cemgurel/Desktop/React/software-for-love-clone/src/pages/volunteers.tsx"))
 }
