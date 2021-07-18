@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BarsOutlined } from "@ant-design/icons";
 import Drawer, { Divider, ContactUsButton, NavButton } from "./styles";
+import Link from "../../Link";
 
 interface Props {
   data: { text: string; path: string }[];
@@ -34,7 +35,9 @@ const index: React.FC<Props> = ({ data }) => {
             <Divider />
           </div>
         ))}
-        <ContactUsButton>Contact Us</ContactUsButton>
+        <Link to="/contact">
+          <ContactUsButton>Contact Us</ContactUsButton>
+        </Link>
       </Drawer>
     </>
   );
